@@ -1,0 +1,11 @@
+.show{
+    display: block;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+
+#description-hotel{
+    min-width: 32px;
+}

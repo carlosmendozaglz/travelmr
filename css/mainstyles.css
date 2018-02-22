@@ -1,0 +1,58 @@
+.content-loading-img{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    padding-top: 300px;
+    padding-left: 50%;
+    background-color: rgba(0,0,0,.2);
+    display: none;
+}
+.link:active{
+    background-color: #065c5c;
+}
+.error-message{
+    color: #fb7272;
+}
+.login-box-body, .register-box-body {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-top: 2px;
+    color: #666;
+}
+
+
+/*css video full*/
+body{
+  margin: 0;   
+  color: #000;
+}
+
+video{
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  top:50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -1;
+    
+}
+
+.img-preview-table{
+    max-height: 50px;
+    max-width: 50px;
+}
+.capital{
+    text-transform: uppercase;
+}
+
+.capital-numbers{
+    text-transform: uppercase;
+}
+.img-logo-login{
+	max-height: 150px;
+}
+.img-logo-header{
+    max-height: 50px;
+}
